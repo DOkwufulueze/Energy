@@ -1,0 +1,49 @@
+create database energy;
+
+use energy;
+
+create table signup(
+	username VARCHAR(20),
+	password VARCHAR(20),
+	surname VARCHAR(120),
+	firstname VARCHAR(120),
+	sex CHAR(6),
+	phone CHAR(15),
+	CONSTRAINT pk PRIMARY KEY(username)
+);
+
+create table exploration(
+	usageID INT(5) AUTO_INCREMENT,
+	username VARCHAR(20),
+	userStatus CHAR(20),
+	documentURL CHAR(200),
+	documentTitle CHAR(20),
+	context CHAR(200),
+	degree CHAR(100),
+	time DATETIME,
+	CONSTRAINT cs PRIMARY KEY(usageID)
+);
+
+create table activity(
+	activityID INT(5) AUTO_INCREMENT,
+	username VARCHAR(20),
+	documentURL CHAR(200),
+	documentTitle CHAR(20),
+	concept CHAR(200),
+	frequency char(10),
+	time DATETIME,
+	CONSTRAINT cs PRIMARY KEY(activityID)
+);
+
+create table objective(
+	objectiveID INT(5) AUTO_INCREMENT,
+	username VARCHAR(20),	
+	userStatus CHAR(20),	
+	objective VARCHAR(200),	
+	timestamp DATETIME,
+	CONSTRAINT cs PRIMARY KEY(objectiveID)
+);
+
+
+# <view task activity>
+# free mindmap window installer 1.0.0 java+embedded

@@ -1,0 +1,197 @@
+
+#wrap{
+   width:940px;
+   margin-right:auto;
+   margin-left: auto;
+   height:auto;
+   background-color:#fff;
+   
+
+}
+
+#head {
+   width:940px;
+   clear:both;
+   padding:0px; 
+} 
+
+#mid{
+   width:100%;
+   height:auto;
+   clear:both;  
+}
+
+#foot{
+   width:940px;
+   height:20px;
+   clear:both;
+   text-align:center;
+   margin-left:0px;
+   border: 1px;
+   background:#ffdbdb;
+   margin-top:5%;
+   color:#ba1111;
+  }
+ #header{
+	height:auto;
+	width:100%;
+	background-color: #ffffff;
+	margin-left:0px;
+	border: 1px;
+	font-size:15px;
+	text-align:center;
+	
+}
+
+#content{
+	border:1px dotted pink;
+	height:530px;
+}
+
+#welcome{
+   height:auto;
+   width:100%;
+   margin-left:0px;
+   text-align:center;
+   margin-bottom:10px;
+}
+
+#main{
+	margin-top:50px;
+}
+
+#menu{
+	float:left;
+	width:200px;
+	height:350px;
+	margin-right:10px;
+	text-align:left;
+	border-right:1px dotted pink;
+}
+
+#default{
+	float:left;
+	width:420px;
+	height:350px;
+	margin-right:10px;
+	text-align:left;
+	border-right:1px dotted pink;
+}
+
+#mindMap{
+	float:left;
+	width:270px;
+	height:350px;
+	text-align:left;
+}
+
+a{
+	text-decoration:none;
+	color:red;
+}
+a:hover{
+	color:blue;
+}
+h1 {
+	font-family: time news roman;
+	color:#ba1111;
+}
+h2 {
+    font-family: time  news roman;
+}
+p{
+   font-family: time  news roman;
+}
+#navMenu{
+    list-style:none;
+	position:relative;
+	float:left;
+	Background-color:#00ffaa;
+	
+} 
+#username{
+    margin-left: 2px;
+    color: blue;
+    /*float:left;*/	
+	margin-bottom:10px;
+	
+}
+
+#login{
+    margin-top:10px;
+    border-bottom:1px dashed pink;
+
+}
+#img{
+    /*border:1px dashed pink;
+    margin-top:40px;
+    padding:0px;*/
+}
+
+#Sform{
+    color:blue;
+}
+
+#forget{
+     color:blue;
+}
+#EP{
+   float:right;
+}
+
+#anim{
+	clear:both;
+	width:100%;
+	height:150px;
+	background:#00ffff;
+	animation:theAnimation 60s infinite;
+	animation-delay:0s;
+	-webkit-animation:theAnimation 60s infinite;
+	-webkit-animation-delay:0s;
+	animation-timing-function:ease;
+	-webkit-animation-timing-function:ease;
+}
+
+@keyframes theAnimation{
+	0%{
+		background:url("images/use4.jpg") ;
+	}
+	20%{
+		background:url("images/use5.jpg") ;
+	}
+	40%{
+		background:url("images/use7.jpg") ;
+	}
+	60%{
+		background:url("images/use8.jpg") ;
+	} 
+	80%{
+		background:url("images/use6.jpg") ;
+	}
+	
+	100%{
+		background:url("images/use9.jpg") ;
+	} 
+}
+
+@-webkit-keyframes theAnimation{
+	0%{
+		background:url("images/use4.jpg") ;
+	}
+	20%{
+		background:url("images/use5.jpg") ;
+	}
+	40%{
+		background:url("images/use7.jpg") ;
+	}
+	60%{
+		background:url("images/use8.jpg") ;
+	} 
+	80%{
+		background:url("images/use6.jpg") ;
+	}
+	
+	100%{
+		background:url("images/use9.jpg") ;
+	} 
+}
